@@ -7,6 +7,8 @@ import classNames from "classnames";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 /* export const metadata: Metadata = {
@@ -15,6 +17,8 @@ const inter = Inter({ subsets: ["latin"] });
 }; */
 
 const mobileLinkStyle = " text-lg font-semibold text-gray-600 p-2 w-fit";
+
+
 
 export default function RootLayout({
   children,

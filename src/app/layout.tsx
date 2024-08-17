@@ -1,12 +1,14 @@
+'use client'
 import classNames from "classnames";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import { Bars3Icon } from "@heroicons/react/16/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { Dropdown } from "antd";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import Head from "next/head";
+import { useState } from "react";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,7 +25,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   const items: any = [
     {
       key: '1',
@@ -72,12 +74,18 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* mobile */}
         <div className="flex justify-end md:hidden" >
-          <Dropdown menu={{ items }} arrow className="m-4">
-            {/* {showMobileMenu 
+          <Dropdown 
+            menu={{ items }} 
+            arrow className="m-4" 
+            open={showMobileMenu} 
+            onOpenChange={() => setShowMobileMenu(!showMobileMenu)}
+            // onClick={() => setShowMobileMenu(!showMobileMenu)}
+          >
+            {showMobileMenu 
               ? <XMarkIcon className="w-8 text-gray-600" onClick={() => setShowMobileMenu(!showMobileMenu)} />
               : <Bars3Icon className="w-8 text-gray-600" onClick={() => setShowMobileMenu(!showMobileMenu)} />
-            } */}
-            <Bars3Icon className="w-8 text-gray-600" />
+            }
+            {/* <Bars3Icon className="w-8 text-gray-600" /> */}
           </Dropdown>
           
           
@@ -87,8 +95,22 @@ export default function RootLayout({
           <nav className="flex px-12 py-4 bg-gray-500 text-white rounded-full shadow w-fit font-semibold">
             <Link href="/">Hjem</Link>
             <Link className="border-l-2 border-white ml-4 pl-4" href="/bilder">Bildegalleri</Link>
-            <Link className="border-l-2 border-white ml-4 pl-4" href="https://bryllupside.webflow.io/">Bryllupssiden</Link>
-            <Link className="border-l-2 border-white ml-4 pl-4" href="https://bryllupside.webflow.io/hold-date">Hold the date</Link>
+            <Link 
+              target='_blank' 
+              className="border-l-2 border-white ml-4 pl-4 flex items-center space-x-2" 
+              href="https://bryllupside.webflow.io/"
+            >
+              <p>Bryllupssiden</p>
+              <HiMiniArrowTopRightOnSquare />
+            </Link>
+            <Link 
+              target='_blank' 
+              className="border-l-2 border-white ml-4 pl-4 flex items-center space-x-2" 
+              href="https://bryllupside.webflow.io/hold-date"
+            >
+              <p>Hold the date</p>
+              <HiMiniArrowTopRightOnSquare />
+            </Link>
           </nav>
         </div>
         {children}

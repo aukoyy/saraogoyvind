@@ -18,6 +18,7 @@ import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 
 
 export default function ImageGallery() {
+  return <div className='h-screen' ></div>
   return (
     <main className="min-h-screen mt-4 mx-4 flex justify-center">
       <div className="md:my-24 mb-36 max-w-screen-md w-full space-y-16">

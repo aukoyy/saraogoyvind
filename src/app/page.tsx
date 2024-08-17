@@ -6,8 +6,8 @@ import { Button } from "antd";
 export default function Home() {
   return (
     <main className="min-h-screen md:my-12 mx-4 flex justify-center">
-      <a id="top"></a> {/* Anchor element at the top */}
-      <div className="mt-12 mb-36 md:mt-24 max-w-screen-md space-y-12">
+      <p>Under arbeid. Sjekk tilbake senere!</p>
+      {/* <div className="mt-12 mb-36 md:mt-24 max-w-screen-md space-y-12">
         <h1 className="text-4xl underline text-center">For en dag!</h1>
         <div>  
           {thankYouParagraphs.map((paragraph, index) => (
@@ -28,7 +28,7 @@ export default function Home() {
           height={1080}
           priority
         />
-      </div>
+      </div> */}
 
       
     </main>

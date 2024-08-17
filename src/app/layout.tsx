@@ -33,12 +33,12 @@ export default function RootLayout({
         <Link className={mobileLinkStyle} href="/">Hjem</Link>
       ),
     },
-    {
+    /* {
       key: '2',
       label: (
         <Link className={mobileLinkStyle} href="/bilder">Bildegalleri</Link>
       ),
-    },
+    }, */
     {
       key: '3',
       label: (
@@ -94,7 +94,7 @@ export default function RootLayout({
         <div className="md:flex justify-center mt-12 hidden">
           <nav className="flex px-12 py-4 bg-gray-500 text-white rounded-full shadow w-fit font-semibold">
             <Link href="/">Hjem</Link>
-            <Link className="border-l-2 border-white ml-4 pl-4" href="/bilder">Bildegalleri</Link>
+            {/* <Link className="border-l-2 border-white ml-4 pl-4" href="/bilder">Bildegalleri</Link> */}
             <Link 
               target='_blank' 
               className="border-l-2 border-white ml-4 pl-4 flex items-center space-x-2" 

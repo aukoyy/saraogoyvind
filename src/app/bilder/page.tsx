@@ -19,8 +19,8 @@ import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 
 export default function ImageGallery() {
   return (
-    <main className="min-h-screen mt-12 mx-2 flex justify-center">
-      <div className="md:my-24 mb-96 max-w-screen-md w-full space-y-16">
+    <main className="min-h-screen mt-4 mx-4 flex justify-center">
+      <div className="md:my-24 mb-36 max-w-screen-md w-full space-y-16">
         <div>
           <h1 className="text-4xl font-bold text-center">Bildegalleri</h1>
           <p className="mt-4 text-center">Velkommen til vårt bildegalleri. Her deler vi et utvalg bilder fra vårt bryllup.</p>
@@ -30,7 +30,7 @@ export default function ImageGallery() {
           </p>
           <div className='flex justify-center'>
             <Button 
-              // href='https://adobe.ly/3X5qiog' 
+              href='https://adobe.ly/3X5qiog' 
               target='_blank' 
               type='link' 
               size="large" 
@@ -112,7 +112,7 @@ export default function ImageGallery() {
       </Carousel>
 
       <div className='md:w-2/3 mx-auto'>
-        <Carousel arrows infinite={false} draggable>
+        <Carousel adaptiveHeight arrows infinite={false} draggable>
           <Image
             src="/images/instaeksport-03.jpg"
             alt="Bilde av bryllup"

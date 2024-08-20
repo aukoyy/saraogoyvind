@@ -6,7 +6,6 @@ import { Button } from "antd";
 export default function Home() {
   return (
     <main className="min-h-screen md:my-12 mx-4 flex justify-center">
-      <a id="top"></a> {/* Anchor element at the top */}
       <div className="mt-12 mb-36 md:mt-24 max-w-screen-md space-y-12">
         <h1 className="text-4xl underline text-center">For en dag!</h1>
         <div>  
@@ -22,8 +21,8 @@ export default function Home() {
           </Button>
         </div>
         <Image
-          src="/static/images/instaeksport-31.jpg"
-          alt="Next.js Logo"
+          src="/static/instaeksport-31.jpg"
+          alt="Bilde av bryllup"
           width={1920}
           height={1080}
           priority

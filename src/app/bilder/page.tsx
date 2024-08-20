@@ -1,23 +1,30 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
-import { Button, Carousel } from 'antd';
+import { Button, Carousel, Input, Modal } from 'antd';
 import Image from "next/image";
+import { useState } from 'react';
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 
-/* 
-  4 seksjoner/karuseller
-  1. Gjør seg klar
-  2. Seremonien
-  3. Fotoshoot
-  4. Middag og fest
-
-  Shared album from LR: https://adobe.ly/3X5qiog
-  Remember to share a quick guide on how to download images from the shared album
-*/
-
-
-
 export default function ImageGallery() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [password, setPassword] = useState('');
+  const [wrongPassword, setWrongPassword] = useState(false);
+  
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setWrongPassword(false);
+    setPassword('');
+  }
+
+  const handleToImagesClicked = () => {
+    if (password === process.env.NEXT_PUBLIC_ALBUM_PASSWORD) {
+      window.open('https://adobe.ly/3X5qiog', '_blank');
+      handleCloseModal();
+    } else {
+      setWrongPassword(true);
+    }
+  }
+  
   return (
     <main className="min-h-screen mt-4 mx-4 flex justify-center">
       <div className="md:my-24 mb-36 max-w-screen-md w-full space-y-16">
@@ -30,11 +37,10 @@ export default function ImageGallery() {
           </p>
           <div className='flex justify-center'>
             <Button 
-              href='https://adobe.ly/3X5qiog' 
-              target='_blank' 
               type='link' 
               size="large" 
               className="w-full md:w-1/2 font-semibold"
+              onClick={() => setIsModalOpen(true)}
             >
               <p>Vis 372 bilder i eksternt album</p>
               <HiMiniArrowTopRightOnSquare />
@@ -319,7 +325,19 @@ export default function ImageGallery() {
         </Carousel>
       </div>
         
+      <Modal 
+        title="Nesten der!.." 
+        open={isModalOpen} 
+        onOk={handleToImagesClicked} 
+        onCancel={handleCloseModal}
+        destroyOnClose
+        okText='Åpne album! -->'
+      >
+        <p>Skriv inn kode for å åpne alle bilder:</p>
+        <Input className='my-4' placeholder='Passord' onChange={(e) => setPassword(e.target.value)} value={password} />
+        {wrongPassword && <p className='text-red-500 font-bold'>Feil passord, prøv igjen</p>}
         
+      </Modal>
       </div>
     </main>
   );

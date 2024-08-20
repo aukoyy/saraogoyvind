@@ -24,6 +24,8 @@ export default function ImageGallery() {
       setWrongPassword(true);
     }
   }
+
+  console.log(process.env.NEXT_PUBLIC_ALBUM_PASSWORD);
   
   return (
     <main className="min-h-screen mt-4 mx-4 flex justify-center">
@@ -334,7 +336,7 @@ export default function ImageGallery() {
         okText='Åpne album! -->'
       >
         <p>Skriv inn kode for å åpne alle bilder:</p>
-        <Input className='my-4' placeholder='Passord' onChange={(e) => setPassword(e.target.value)} value={password} />
+        <Input status={wrongPassword ? 'error' : ''} className='my-4' placeholder='Passord' onChange={(e) => setPassword(e.target.value)} value={password} />
         {wrongPassword && <p className='text-red-500 font-bold'>Feil passord, prøv igjen</p>}
         
       </Modal>

@@ -22,7 +22,7 @@ export default function Home() {
           </Button>
         </div>
         <Image
-          src="/images/instaeksport-31.jpg"
+          src="/static/images/instaeksport-31.jpg"
           alt="Next.js Logo"
           width={1920}
           height={1080}

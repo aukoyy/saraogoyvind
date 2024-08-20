@@ -17,7 +17,7 @@ export default function ImageGallery() {
   }
 
   const handleToImagesClicked = () => {
-    if (password === process.env.NEXT_PUBLIC_ALBUM_PASSWORD) {
+    if (password.toLocaleLowerCase() === process.env.NEXT_PUBLIC_ALBUM_PASSWORD) {
       window.open('https://adobe.ly/3X5qiog', '_blank');
       handleCloseModal();
     } else {

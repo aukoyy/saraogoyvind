@@ -16,7 +16,7 @@ export default function ImageGallery() {
     setPassword('');
   }
 
-  const handleTostatic/ImagesClicked = () => {
+  const handleToImagesClicked = () => {
     if (password.toLocaleLowerCase() === process.env.NEXT_PUBLIC_ALBUM_PASSWORD) {
       window.open('https://adobe.ly/3X5qiog', '_blank');
       handleCloseModal();
@@ -328,7 +328,7 @@ export default function ImageGallery() {
       <Modal 
         title="Nesten der!.." 
         open={isModalOpen} 
-        onOk={handleTostatic/ImagesClicked} 
+        onOk={handleToImagesClicked} 
         onCancel={handleCloseModal}
         destroyOnClose
         okText='Åpne album! -->'

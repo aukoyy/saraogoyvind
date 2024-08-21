@@ -49,68 +49,68 @@ export default function ImageGallery() {
         </div>
         <Carousel arrows infinite={false} adaptiveHeight draggable>
           <Image
-            src="/images/instaeksport-01.jpg"
+            src="/images/Instaeksport-01.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
             priority
           />
           <Image
-            src="/images/instaeksport-02.jpg"
+            src="/images/Instaeksport-02.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-05.jpg"
+            src="/images/Instaeksport-05.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-06.jpg"
+            src="/images/Instaeksport-06.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-07.jpg"
+            src="/images/Instaeksport-07.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-08.jpg"
+            src="/images/Instaeksport-08.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-09.jpg"
+            src="/images/Instaeksport-09.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-10.jpg"
+            src="/images/Instaeksport-10.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-11.jpg"
+            src="/images/Instaeksport-11.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-12.jpg"
+            src="/images/Instaeksport-12.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/instaeksport-13.jpg"
+            src="/images/Instaeksport-13.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
@@ -120,86 +120,86 @@ export default function ImageGallery() {
       <div className='md:w-2/3 mx-auto'>
         <Carousel adaptiveHeight arrows infinite={false} draggable>
           <Image
-            src="/images/instaeksport-03.jpg"
+            src="/images/Instaeksport-03.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
             priority
           />
           <Image
-            src="/images/instaeksport-04.jpg"
+            src="/images/Instaeksport-04.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-14.jpg"
+            src="/images/Instaeksport-14.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-15.jpg"
+            src="/images/Instaeksport-15.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-16.jpg"
+            src="/images/Instaeksport-16.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-17.jpg"
+            src="/images/Instaeksport-17.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-19.jpg"
+            src="/images/Instaeksport-19.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-20.jpg"
+            src="/images/Instaeksport-20.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-21.jpg"
+            src="/images/Instaeksport-21.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-22.jpg"
+            src="/images/Instaeksport-22.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-23.jpg"
+            src="/images/Instaeksport-23.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-24.jpg"
+            src="/images/Instaeksport-24.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-25.jpg"
+            src="/images/Instaeksport-25.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-27.jpg"
+            src="/images/Instaeksport-27.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
@@ -209,68 +209,68 @@ export default function ImageGallery() {
 
       <Carousel arrows infinite={false} adaptiveHeight draggable>
         <Image
-          src="/images/instaeksport-18.jpg"
+          src="/images/Instaeksport-18.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
           priority
         />
         <Image
-          src="/images/instaeksport-26.jpg"
+          src="/images/Instaeksport-26.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-28.jpg"
+          src="/images/Instaeksport-28.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-29.jpg"
+          src="/images/Instaeksport-29.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-30.jpg"
+          src="/images/Instaeksport-30.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-31.jpg"
+          src="/images/Instaeksport-31.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-32.jpg"
+          src="/images/Instaeksport-32.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-33.jpg"
+          src="/images/Instaeksport-33.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-34.jpg"
+          src="/images/Instaeksport-34.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-42.jpg"
+          src="/images/Instaeksport-42.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/instaeksport-43.jpg"
+          src="/images/Instaeksport-43.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
@@ -280,44 +280,44 @@ export default function ImageGallery() {
       <div className='md:w-2/3 mx-auto'>
         <Carousel adaptiveHeight arrows infinite={false} draggable>
           <Image
-            src="/images/instaeksport-35.jpg"
+            src="/images/Instaeksport-35.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
             priority
           />
           {/* <Image
-            src="/images/instaeksport-36.jpg"
+            src="/images/Instaeksport-36.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           /> */}
           <Image
-            src="/images/instaeksport-37.jpg"
+            src="/images/Instaeksport-37.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-38.jpg"
+            src="/images/Instaeksport-38.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-39.jpg"
+            src="/images/Instaeksport-39.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-40.jpg"
+            src="/images/Instaeksport-40.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/instaeksport-41.jpg"
+            src="/images/Instaeksport-41.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}

@@ -1,23 +1,15 @@
 'use client'
 import classNames from "classnames";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { Dropdown } from "antd";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
-import Head from "next/head";
 import { useState } from "react";
 
 
 const inter = Inter({ subsets: ["latin"] });
-
-/* export const metadata: Metadata = {
-  title: "Det ble oss!",
-  description: "Sara og Øyvinds bryllupsside",
-}; */
-
 const mobileLinkStyle = "text-lg font-semibold text-gray-600 w-fit";
 
 export default function RootLayout({
@@ -79,13 +71,11 @@ export default function RootLayout({
             arrow className="m-4" 
             open={showMobileMenu} 
             onOpenChange={() => setShowMobileMenu(!showMobileMenu)}
-            // onClick={() => setShowMobileMenu(!showMobileMenu)}
           >
             {showMobileMenu 
               ? <XMarkIcon className="w-8 text-gray-600" onClick={() => setShowMobileMenu(!showMobileMenu)} />
               : <Bars3Icon className="w-8 text-gray-600" onClick={() => setShowMobileMenu(!showMobileMenu)} />
             }
-            {/* <Bars3Icon className="w-8 text-gray-600" /> */}
           </Dropdown>
           
           

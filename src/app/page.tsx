@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { thankYouParagraphs } from "./takketekst";
 import { Button } from "antd";
 
@@ -28,8 +27,6 @@ export default function Home() {
           priority
         />
       </div>
-
-      
     </main>
   );
 }

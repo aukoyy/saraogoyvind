@@ -333,7 +333,7 @@ export default function ImageGallery() {
         destroyOnClose
         okText='Åpne album! -->'
       >
-        <p>Skriv inn kode for å åpne alle bilder:</p>
+        <p>Skriv inn passordet for å åpne alle bilder.</p>
         <Input status={wrongPassword ? 'error' : ''} className='my-4' placeholder='Passord' onChange={
             (e) => { setPassword(e.target.value); setWrongPassword(false)
           }} 

@@ -21,7 +21,7 @@ export default function Home() {
           </Button>
         </div>
         <Image
-          src="/static/Instaeksport-31.jpg"
+          src="/images/Instaeksport-31.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}

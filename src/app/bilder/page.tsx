@@ -16,7 +16,7 @@ export default function ImageGallery() {
     setPassword('');
   }
 
-  const handleToImagesClicked = () => {
+  const handleTostatic/ImagesClicked = () => {
     if (password.toLocaleLowerCase() === process.env.NEXT_PUBLIC_ALBUM_PASSWORD) {
       window.open('https://adobe.ly/3X5qiog', '_blank');
       handleCloseModal();
@@ -49,68 +49,68 @@ export default function ImageGallery() {
         </div>
         <Carousel arrows infinite={false} adaptiveHeight draggable>
           <Image
-            src="/images/Instaeksport-01.jpg"
+            src="/static/images/Instaeksport-01.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
             priority
           />
           <Image
-            src="/images/Instaeksport-02.jpg"
+            src="/static/images/Instaeksport-02.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-05.jpg"
+            src="/static/images/Instaeksport-05.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-06.jpg"
+            src="/static/images/Instaeksport-06.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-07.jpg"
+            src="/static/images/Instaeksport-07.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-08.jpg"
+            src="/static/images/Instaeksport-08.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-09.jpg"
+            src="/static/images/Instaeksport-09.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-10.jpg"
+            src="/static/images/Instaeksport-10.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-11.jpg"
+            src="/static/images/Instaeksport-11.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-12.jpg"
+            src="/static/images/Instaeksport-12.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
           />
           <Image
-            src="/images/Instaeksport-13.jpg"
+            src="/static/images/Instaeksport-13.jpg"
             alt="Bilde av bryllup"
             width={1920}
             height={1080}
@@ -120,86 +120,86 @@ export default function ImageGallery() {
       <div className='md:w-2/3 mx-auto'>
         <Carousel adaptiveHeight arrows infinite={false} draggable>
           <Image
-            src="/images/Instaeksport-03.jpg"
+            src="/static/images/Instaeksport-03.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
             priority
           />
           <Image
-            src="/images/Instaeksport-04.jpg"
+            src="/static/images/Instaeksport-04.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-14.jpg"
+            src="/static/images/Instaeksport-14.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-15.jpg"
+            src="/static/images/Instaeksport-15.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-16.jpg"
+            src="/static/images/Instaeksport-16.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-17.jpg"
+            src="/static/images/Instaeksport-17.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-19.jpg"
+            src="/static/images/Instaeksport-19.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-20.jpg"
+            src="/static/images/Instaeksport-20.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-21.jpg"
+            src="/static/images/Instaeksport-21.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-22.jpg"
+            src="/static/images/Instaeksport-22.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-23.jpg"
+            src="/static/images/Instaeksport-23.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-24.jpg"
+            src="/static/images/Instaeksport-24.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-25.jpg"
+            src="/static/images/Instaeksport-25.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-27.jpg"
+            src="/static/images/Instaeksport-27.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
@@ -209,68 +209,68 @@ export default function ImageGallery() {
 
       <Carousel arrows infinite={false} adaptiveHeight draggable>
         <Image
-          src="/images/Instaeksport-18.jpg"
+          src="/static/images/Instaeksport-18.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
           priority
         />
         <Image
-          src="/images/Instaeksport-26.jpg"
+          src="/static/images/Instaeksport-26.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-28.jpg"
+          src="/static/images/Instaeksport-28.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-29.jpg"
+          src="/static/images/Instaeksport-29.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-30.jpg"
+          src="/static/images/Instaeksport-30.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-31.jpg"
+          src="/static/images/Instaeksport-31.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-32.jpg"
+          src="/static/images/Instaeksport-32.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-33.jpg"
+          src="/static/images/Instaeksport-33.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-34.jpg"
+          src="/static/images/Instaeksport-34.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-42.jpg"
+          src="/static/images/Instaeksport-42.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
         />
         <Image
-          src="/images/Instaeksport-43.jpg"
+          src="/static/images/Instaeksport-43.jpg"
           alt="Bilde av bryllup"
           width={1920}
           height={1080}
@@ -280,44 +280,44 @@ export default function ImageGallery() {
       <div className='md:w-2/3 mx-auto'>
         <Carousel adaptiveHeight arrows infinite={false} draggable>
           <Image
-            src="/images/Instaeksport-35.jpg"
+            src="/static/images/Instaeksport-35.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
             priority
           />
           {/* <Image
-            src="/images/Instaeksport-36.jpg"
+            src="/static/images/Instaeksport-36.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           /> */}
           <Image
-            src="/images/Instaeksport-37.jpg"
+            src="/static/images/Instaeksport-37.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-38.jpg"
+            src="/static/images/Instaeksport-38.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-39.jpg"
+            src="/static/images/Instaeksport-39.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-40.jpg"
+            src="/static/images/Instaeksport-40.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
           />
           <Image
-            src="/images/Instaeksport-41.jpg"
+            src="/static/images/Instaeksport-41.jpg"
             alt="Bilde av bryllup"
             width={1080}
             height={1920}
@@ -328,7 +328,7 @@ export default function ImageGallery() {
       <Modal 
         title="Nesten der!.." 
         open={isModalOpen} 
-        onOk={handleToImagesClicked} 
+        onOk={handleTostatic/ImagesClicked} 
         onCancel={handleCloseModal}
         destroyOnClose
         okText='Åpne album! -->'

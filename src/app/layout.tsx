@@ -7,6 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import { Dropdown } from "antd";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -64,6 +65,7 @@ export default function RootLayout({
         <title>Det ble oss!</title>
       </head>
       <body className={inter.className}>
+        <Analytics />
         {/* mobile */}
         <div className="flex justify-end md:hidden" >
           <Dropdown 
